@@ -39,9 +39,9 @@ public class BaseTest {
 		if (prop.getProperty("browser").equalsIgnoreCase("chrome")){
 			WebDriverManager.chromedriver().setup();			
 			ChromeOptions co = new ChromeOptions();
-			co.addArguments("--no-sandbox");
-			co.addArguments("--disable-dev-shm-usage");
-			co.addArguments("headless");
+			//co.addArguments("--no-sandbox");
+			//co.addArguments("--disable-dev-shm-usage");
+			//co.addArguments("headless");
 			driver = new ChromeDriver(co);
 
 
