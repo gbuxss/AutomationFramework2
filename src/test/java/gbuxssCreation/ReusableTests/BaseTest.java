@@ -41,6 +41,7 @@ public class BaseTest {
 			ChromeOptions co = new ChromeOptions();
 			co.addArguments("--no-sandbox");
 			co.addArguments("--disable-dev-shm-usage");
+			co.addArguments("headless");
 			driver = new ChromeDriver(co);
 
 
