@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-04T09:58:54 CDT" name="Suite" finished-at="2022-10-04T09:59:34 CDT" duration-ms="39253">
+    <groups>
+      <group name="errorvalidation">
+        <method signature="ErrorValidationTest.loginValidation(java.util.HashMap)[pri:0, instance:gbuxssCreation.Tests.ErrorValidationTest@4b6e2263]" name="loginValidation" class="gbuxssCreation.Tests.ErrorValidationTest"/>
+        <method signature="ErrorValidationTest.validatecorrectProdct(java.util.HashMap)[pri:0, instance:gbuxssCreation.Tests.ErrorValidationTest@4b6e2263]" name="validatecorrectProdct" class="gbuxssCreation.Tests.ErrorValidationTest"/>
+      </group> <!-- errorvalidation -->
+    </groups>
+    <test started-at="2022-10-04T09:58:54 CDT" name="Error Validation Test" finished-at="2022-10-04T09:59:28 CDT" duration-ms="33461">
+      <class name="gbuxssCreation.Tests.ErrorValidationTest">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:gbuxssCreation.Tests.ErrorValidationTest@4b6e2263]" started-at="2022-10-04T09:58:55 CDT" name="lunchApplication" finished-at="2022-10-04T09:59:02 CDT" duration-ms="7202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="loginValidation(java.util.HashMap)[pri:0, instance:gbuxssCreation.Tests.ErrorValidationTest@4b6e2263]" started-at="2022-10-04T09:59:02 CDT" name="loginValidation" data-provider="loginValidationData" finished-at="2022-10-04T09:59:03 CDT" duration-ms="1426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nepal@1245, email=jeevandhamala095@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gbuxssCreation.Tests.ErrorValidationTest@4b6e2263]" started-at="2022-10-04T09:59:03 CDT" name="tearDown" finished-at="2022-10-04T09:59:03 CDT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:gbuxssCreation.Tests.ErrorValidationTest@4b6e2263]" started-at="2022-10-04T09:59:03 CDT" name="lunchApplication" finished-at="2022-10-04T09:59:09 CDT" duration-ms="5187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="loginValidation(java.util.HashMap)[pri:0, instance:gbuxssCreation.Tests.ErrorValidationTest@4b6e2263]" started-at="2022-10-04T09:59:09 CDT" name="loginValidation" data-provider="loginValidationData" finished-at="2022-10-04T09:59:10 CDT" duration-ms="1355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nepal@1235, email=johnDoe@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gbuxssCreation.Tests.ErrorValidationTest@4b6e2263]" started-at="2022-10-04T09:59:10 CDT" name="tearDown" finished-at="2022-10-04T09:59:10 CDT" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:gbuxssCreation.Tests.ErrorValidationTest@4b6e2263]" started-at="2022-10-04T09:59:10 CDT" name="lunchApplication" finished-at="2022-10-04T09:59:15 CDT" duration-ms="4422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="validatecorrectProdct(java.util.HashMap)[pri:0, instance:gbuxssCreation.Tests.ErrorValidationTest@4b6e2263]" started-at="2022-10-04T09:59:15 CDT" name="validatecorrectProdct" data-provider="validatecorrectPrdouctData" finished-at="2022-10-04T09:59:19 CDT" duration-ms="4094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nepal@12345, email=jeevandhamala095@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecorrectProdct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gbuxssCreation.Tests.ErrorValidationTest@4b6e2263]" started-at="2022-10-04T09:59:19 CDT" name="tearDown" finished-at="2022-10-04T09:59:19 CDT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:gbuxssCreation.Tests.ErrorValidationTest@4b6e2263]" started-at="2022-10-04T09:59:19 CDT" name="lunchApplication" finished-at="2022-10-04T09:59:23 CDT" duration-ms="4607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="validatecorrectProdct(java.util.HashMap)[pri:0, instance:gbuxssCreation.Tests.ErrorValidationTest@4b6e2263]" started-at="2022-10-04T09:59:23 CDT" name="validatecorrectProdct" data-provider="validatecorrectPrdouctData" finished-at="2022-10-04T09:59:28 CDT" duration-ms="4190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nepal@12345, email=johnDoe@gmail.com, productName=iphone 13 pro}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecorrectProdct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gbuxssCreation.Tests.ErrorValidationTest@4b6e2263]" started-at="2022-10-04T09:59:28 CDT" name="tearDown" finished-at="2022-10-04T09:59:28 CDT" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- gbuxssCreation.Tests.ErrorValidationTest -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2022-10-04T09:58:54 CDT" name="Submit Order Test" finished-at="2022-10-04T09:59:34 CDT" duration-ms="39253">
+      <class name="gbuxssCreation.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:gbuxssCreation.Tests.SubmitOrderTest@6ce86ce1]" started-at="2022-10-04T09:58:55 CDT" name="lunchApplication" finished-at="2022-10-04T09:59:02 CDT" duration-ms="7235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:gbuxssCreation.Tests.SubmitOrderTest@6ce86ce1]" started-at="2022-10-04T09:59:02 CDT" name="submitOrder" data-provider="SubmitOrderData" finished-at="2022-10-04T09:59:09 CDT" duration-ms="6664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nepal@12345, countryName=Nepal, email=jeevandhamala095@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gbuxssCreation.Tests.SubmitOrderTest@6ce86ce1]" started-at="2022-10-04T09:59:09 CDT" name="tearDown" finished-at="2022-10-04T09:59:09 CDT" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:gbuxssCreation.Tests.SubmitOrderTest@6ce86ce1]" started-at="2022-10-04T09:59:09 CDT" name="lunchApplication" finished-at="2022-10-04T09:59:14 CDT" duration-ms="4956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:gbuxssCreation.Tests.SubmitOrderTest@6ce86ce1]" started-at="2022-10-04T09:59:14 CDT" name="submitOrder" data-provider="SubmitOrderData" finished-at="2022-10-04T09:59:20 CDT" duration-ms="6759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nepal@12345, countryName=United States, email=johnDoe@gmail.com, productName=iphone 13 pro}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gbuxssCreation.Tests.SubmitOrderTest@6ce86ce1]" started-at="2022-10-04T09:59:20 CDT" name="tearDown" finished-at="2022-10-04T09:59:21 CDT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:gbuxssCreation.Tests.SubmitOrderTest@6ce86ce1]" started-at="2022-10-04T09:59:21 CDT" name="lunchApplication" finished-at="2022-10-04T09:59:25 CDT" duration-ms="3959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="verifyOrders(java.util.HashMap)[pri:0, instance:gbuxssCreation.Tests.SubmitOrderTest@6ce86ce1]" started-at="2022-10-04T09:59:25 CDT" name="verifyOrders" data-provider="VerifyOrderData" finished-at="2022-10-04T09:59:27 CDT" depends-on-methods="gbuxssCreation.Tests.SubmitOrderTest.submitOrder" duration-ms="2190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nepal@12345, email=jeevandhamala095@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gbuxssCreation.Tests.SubmitOrderTest@6ce86ce1]" started-at="2022-10-04T09:59:27 CDT" name="tearDown" finished-at="2022-10-04T09:59:27 CDT" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="lunchApplication()[pri:0, instance:gbuxssCreation.Tests.SubmitOrderTest@6ce86ce1]" started-at="2022-10-04T09:59:27 CDT" name="lunchApplication" finished-at="2022-10-04T09:59:32 CDT" duration-ms="4804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplication -->
+        <test-method signature="verifyOrders(java.util.HashMap)[pri:0, instance:gbuxssCreation.Tests.SubmitOrderTest@6ce86ce1]" started-at="2022-10-04T09:59:32 CDT" name="verifyOrders" data-provider="VerifyOrderData" finished-at="2022-10-04T09:59:33 CDT" depends-on-methods="gbuxssCreation.Tests.SubmitOrderTest.submitOrder" duration-ms="1750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nepal@12345, email=johnDoe@gmail.com, productName=iphone 13 pro}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrders -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:gbuxssCreation.Tests.SubmitOrderTest@6ce86ce1]" started-at="2022-10-04T09:59:33 CDT" name="tearDown" finished-at="2022-10-04T09:59:34 CDT" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- gbuxssCreation.Tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
