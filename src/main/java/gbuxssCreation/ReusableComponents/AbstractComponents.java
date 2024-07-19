@@ -45,7 +45,7 @@ public class AbstractComponents {
 
 	public void waitFormultipleObjectVisibiity(List<WebElement> selector) {
 
-		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.visibilityOfAllElements(selector));
 
 	}
@@ -58,16 +58,14 @@ public class AbstractComponents {
 
 	public CartPage goToCartPage() {
 		cartPage.click();
-		CartPage cartPageObj =new CartPage(driver);
-		return cartPageObj;
+        return new CartPage(driver);
 
 	}
 	
 	public OrdersPage goToOrdersPage() {
 		waitForObjectVisibiity(myOrders);
 		myOrders.click();
-		OrdersPage orderPageObj= new OrdersPage(driver);
-		return orderPageObj;
+        return new OrdersPage(driver);
 		
 	}
 
